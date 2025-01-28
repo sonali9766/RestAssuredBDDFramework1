@@ -74,5 +74,52 @@ public class customerStepDefination extends BaseApi {
 		vr.log().all();
 
 	}
+	
+	//************************
+	
+	
+	@Given("user set {string} base path")
+	public void user_set_base_path(String string) {
+	    
+	}
 
+	@Given("user get request specification interface object")
+	public void user_get_request_specification_interface_object() {
+	   
+	}
+
+	@Given("user create request payload for post request")
+	public void user_create_request_payload_for_post_request() {
+	    
+	}
+
+	@Given("user add customer request payload to http requests")
+	public void user_add_customer_request_payload_to_http_requests() {
+	    
+	}
+
+	@Then("user get Validatable response interface object")
+	public void user_get_validatable_response_interface_object() {
+	   
+	}
+
+	@Then("user validate status code {int}")
+	public void user_validate_status_code(Integer int1) {
+	    
+	}
+
+	@Then("user validate status line {string}")
+	public void user_validate_status_line(String string) {
+	   
+	}
+
+	@Then("user validate response time below {int} ms")
+	public void user_validate_response_time_below_ms(Integer int1) {
+	    
+	}
+
+	@Then("user validate response {string} and {string} header")
+	public void user_validate_response_and_header(String string, String string2) {
+	    
+	}
 }
